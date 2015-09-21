@@ -6,7 +6,10 @@ var showValue = function (val) {
 
 var socket = io('http://localhost:8080');
 
-socket.on('connect', function (data) {
+socket.on('connect', function () {
   console.log("connected");
-  socket.emit('my other event', { my: 'data' });
+  var data = {
+    range: document.getElementById('slider').value
+  };
+  socket.emit('client-data', data);
 });
