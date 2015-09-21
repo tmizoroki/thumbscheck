@@ -2,7 +2,7 @@
   "name": "thumbscheck",
   "version": "1.0.0",
   "description": "Allow students to show their confidence level to lecturers in real time.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "test"
   },
