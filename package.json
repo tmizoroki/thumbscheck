@@ -1,0 +1,24 @@
+{
+  "name": "thumbscheck",
+  "version": "1.0.0",
+  "description": "Allow students to show their confidence level to lecturers in real time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmizoroki/thumbscheck.git"
+  },
+  "keywords": [
+    "thumbs",
+    "check",
+    "mvp"
+  ],
+  "author": "Tomio Mizoroki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmizoroki/thumbscheck/issues"
+  },
+  "homepage": "https://github.com/tmizoroki/thumbscheck#readme"
+}
