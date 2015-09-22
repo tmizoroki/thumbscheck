@@ -10,6 +10,6 @@ The slider will stream the data to a sever which will continuously aggregate the
 
 Stretch Goal:
 
-Allow the lecturer to view the data in realtime in as a graph built with D3.
+Allow the lecturer to view the data in realtime in as a graph built with the Epoch library.
 Use Github OAuth for students to login.
 Allow lecturer to see the confidence level of a particular student.
