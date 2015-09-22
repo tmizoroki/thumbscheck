@@ -14,7 +14,7 @@ dashboard.on('updateStats', function(refresh) {
   console.log(refresh.avgConfidence);
 
   avgConfGauge.update(refresh.avgConfidence / 100);
-  lineChartData[0].values.push({ time: Date.now()/1000, y: refresh.avgConfidence });
+  // lineChartData[0].values.push({ time: Date.now()/1000, y: refresh.avgConfidence });
 
 
 });
