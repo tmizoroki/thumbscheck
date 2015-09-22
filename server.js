@@ -4,7 +4,7 @@ var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 
 server.listen(8080);
-app.use('/', express.static(__dirname + '/../public'));
+app.use('/', express.static(__dirname + '/public'));
 
 var socketData = {};
 var stats = { connections: 0, aggConfidence: 0};
