@@ -3,11 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Thumbs Check Dashboard</title>
+	<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../bower_components/epoch/epoch.min.css" rel="stylesheet" />
 </head>
 <body>
-	<script src=""></script>
-	<script src=""></script>
-	<script src=""></script>
-	<script src=""></script>
+
+	<div id="gaugeChart" class="epoch gauge-large"></div>
+	<!-- <div id="lineChart" class="epoch"></div> -->
+	<div id="lineChart" class="epoch" style="height: 200px; position: relative;" data-epoch-container-id="epoch-container-7"></div>
+
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/d3/d3.min.js"></script>
+	<script src="../bower_components/epoch/epoch.min.js"></script>
+	<script src="../bower_components/socket.io-client/socket.io.js"></script>
+	<script src="dashboard.js"></script>
 </body>
 </html>
