@@ -5,11 +5,13 @@ socket.on('connect', function () {
   var data = {
     range: document.getElementById('slider').value
   };
+  // console.log(data);
   socket.emit('client-data', data);
 });
 
 var showValue = function (val) {
   document.getElementById('confidence').innerHTML = val;
-  
-  socket.emit('client-data', val);
+  var data = { range: val };
+  // console.log(data);
+  socket.emit('client-data', data);
 };
